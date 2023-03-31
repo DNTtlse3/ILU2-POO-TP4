@@ -3,8 +3,8 @@ package scenarioTest;
 import personnages.Gaulois;
 import produit.Poisson;
 import produit.Sanglier;
-import villagegaulois.Etal;
-import villagegaulois.IEtal;
+import villagegauloisold.Etal;
+import villagegauloisold.IEtal;
 
 public class Scenario {
 
@@ -14,9 +14,9 @@ public class Scenario {
 
 		// fin
 
-		Gaulois ordralfabetix = new Gaulois("Ordralfabétix", 9);
-		Gaulois obelix = new Gaulois("Obélix", 20);
-		Gaulois asterix = new Gaulois("Astérix", 6);
+		Gaulois ordralfabetix = new Gaulois("Ordralfabï¿½tix", 9);
+		Gaulois obelix = new Gaulois("Obï¿½lix", 20);
+		Gaulois asterix = new Gaulois("Astï¿½rix", 6);
 
 		IEtal<Sanglier> etalSanglierObelix = new Etal<>();
 		IEtal<Sanglier> etalSanglierAsterix = new Etal<>();

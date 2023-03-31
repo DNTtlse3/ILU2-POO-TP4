@@ -4,13 +4,13 @@ public class Poisson extends Produit{
 	
 	private String date;
 
-	public Poisson(String nomProduit,Unite unite,String date) {
-		super(nomProduit,unite);
+	public Poisson(int quantite ,String date) {
+		super("Fish",quantite);
 		this.date  = date;
 	}
 	
 	@Override
-	public void descriptionProdiut() {
+	public void descriptionProduit() {
 		// TODO Auto-generated method stub
 		
 	}
