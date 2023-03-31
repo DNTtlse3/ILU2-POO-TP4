@@ -4,8 +4,8 @@ public class Poisson extends Produit{
 	
 	private String date;
 
-	public Poisson(int quantite ,String date) {
-		super("Fish",quantite);
+	public Poisson(String date) {
+		super("Fish");
 		this.date  = date;
 	}
 	

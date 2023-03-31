@@ -1,13 +1,15 @@
 package produit;
 
+import personnages.Gaulois;
+
 public class Sanglier extends Produit{
 	
-	private String nomChasseur;
+	private Gaulois chasseur;
 	private int poids;
 
-	public Sanglier(int quantite ,String nomChasseur, int poids) {
-		super("Sanglier",quantite);
-		this.nomChasseur = nomChasseur;
+	public Sanglier(int poids ,Gaulois chasseur) {
+		super("Sanglier");
+		this.chasseur = chasseur;
 		this.poids = poids;
 	}
 
